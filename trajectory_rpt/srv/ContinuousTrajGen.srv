@@ -1,0 +1,7 @@
+std_msgs/Float64MultiArray initial_jts
+geometry_msgs/Point point1
+geometry_msgs/Point point2
+std_msgs/Float64MultiArray rotation_matrix1
+std_msgs/Float64MultiArray rotation_matrix2
+---
+std_msgs/Float64MultiArray continuous_traj

@@ -1,0 +1,4 @@
+std_msgs/Float64MultiArray corner_points
+sensor_msgs/PointCloud2 input_rgb_cloud
+---
+std_msgs/Bool result

@@ -1,0 +1,4 @@
+
+---
+std_msgs/Float64MultiArray centroids
+std_msgs/Float64MultiArray bin_corners

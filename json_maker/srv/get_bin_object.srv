@@ -1,0 +1,4 @@
+
+---
+std_msgs/Int16 bin_num
+std_msgs/Int16 obj_id

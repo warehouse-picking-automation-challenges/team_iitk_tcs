@@ -1,0 +1,4 @@
+geometry_msgs/Pose pose
+std_msgs/Float64 bin_num
+---
+std_msgs/Float64MultiArray joint_angles

@@ -1,0 +1,15 @@
+std_msgs/Int16MultiArray tote_object_list
+sensor_msgs/PointCloud2 center_rgb_cloud
+sensor_msgs/PointCloud2 left_rgb_cloud
+sensor_msgs/PointCloud2 right_rgb_cloud
+---
+geometry_msgs/Point obj_centroid
+geometry_msgs/Point obj_normal
+geometry_msgs/Point obj_axis
+geometry_msgs/Point gripping_centroid
+geometry_msgs/Point gripping_normal
+geometry_msgs/Point gripping_axis
+std_msgs/Bool flag_grip
+std_msgs/Int16 recognized_obj_id
+std_msgs/Int16 obj_psn_suction
+

@@ -1,0 +1,16 @@
+std_msgs/Float64MultiArray bin_centroid
+std_msgs/Float64MultiArray bin_corners
+std_msgs/Float64 bin_num
+std_msgs/Int16 obj_id
+geometry_msgs/Point obj_centroid
+geometry_msgs/Point obj_normal
+geometry_msgs/Point obj_axis
+geometry_msgs/Point gripping_centroid
+geometry_msgs/Point gripping_normal
+geometry_msgs/Point gripping_axis
+std_msgs/Bool flag_grip
+---
+std_msgs/Float64MultiArray jts_reach
+std_msgs/Float64MultiArray jts_back
+
+
