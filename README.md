@@ -1,7 +1,8 @@
 # team_iitk_tcs
 
 Description: Programs related to Amazon Picking Challenge(APC) implemented using Barrett X-WAM robot manipulator
-Author: Sharath Jotawar Email: sharathrjtr@gmail.com. 
+Author: Sharath Jotawar Email: sharathrjtr@gmail.com.
+
 This software is being released under MIT License. https://opensource.org/licenses/MIT
 
 -----------------------------
