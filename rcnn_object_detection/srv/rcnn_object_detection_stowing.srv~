@@ -1,5 +1,0 @@
-sensor_msgs/Image input_rgb_img
-std_msgs/Int32MultiArray stow_obj_list
----
-std_msgs/Int32MultiArray obj_box_rect
-std_msgs/Float64 score

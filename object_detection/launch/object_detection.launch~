@@ -1,6 +1,0 @@
-<launch>
-	<node name="object_detection" pkg="object_detection" type="object_detection"/>
-
-	<node name="rcnn_object_detection" pkg="rcnn_object_detection" type="demo_ros_apc_ur5_pick.py"/>
-	<!--node name="rcnn_object_detection" pkg="rcnn_object_detection" type="demo_ros_apc_ur5_stow.py"/-->	
-</launch>
