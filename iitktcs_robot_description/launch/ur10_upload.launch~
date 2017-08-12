@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="limited" default="false"/>
+  
+  <param name="robot_description" command="$(find xacro)/xacro.py $(find iitktcs_robot_description)/description/ur10_ensenso_g2/ur10_ensenso_vgs.urdf.xacro" />
+
+
+</launch>

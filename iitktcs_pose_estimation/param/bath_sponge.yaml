@@ -1,0 +1,17 @@
+bath_sponge:
+ normal_data: [0,0,0]
+
+ geometry_type: 1
+
+ object_type: 1
+
+ primitive_type: 1
+
+ overlap: 1
+
+ dimensions: [1,1,1] 
+
+ offset: 0.02
+
+ weight: 1
+

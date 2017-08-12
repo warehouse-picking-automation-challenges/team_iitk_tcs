@@ -1,0 +1,17 @@
+epsom_salts:
+ normal_data: [0,1,1]
+
+ geometry_type: 0
+
+ object_type: 0
+
+ primitive_type: 0
+
+ overlap: 0.95
+
+ dimensions: [0.17,0.125,0.045] 
+
+ offset: 0
+
+ weight: 1
+

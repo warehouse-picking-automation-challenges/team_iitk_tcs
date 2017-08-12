@@ -1,0 +1,25 @@
+<launch> 
+  <arg name="sim" default="false" /> 
+  <arg name="limited" default="false"/> 
+  <arg name="debug" default="false" /> 
+    
+  <!-- Remap follow_joint_trajectory --> 
+  <remap if="$(arg sim)" from="/follow_joint_trajectory" to="/arm_controller/follow_joint_trajectory"/> 
+  
+  <include file="$(find iitktcs_ur10_ensenso_g2_suction_moveit_config)/launch/planning_context.launch">
+    <arg name="load_robot_description" value="true"/>
+  </include>
+
+  <!--arg name="gui" default="false" /--> 
+
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
+    <param name="/use_gui" value="false"/>
+    <rosparam param="/source_list">[iitktcs/motion_planner/joint_states]</rosparam>
+  </node>
+
+  <!-- Launch moveit --> 
+  <include file="$(find iitktcs_ur10_ensenso_g2_suction_moveit_config)/launch/move_group.launch"> 
+    <arg name="debug" default="$(arg debug)" /> 
+  </include> 
+
+</launch>

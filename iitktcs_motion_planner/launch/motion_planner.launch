@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<launch>
+  <arg name="sim" default="false" /> 
+
+  <include file="$(find iitktcs_ur10_ensenso_g2_suction_moveit_config)/launch/ur10_moveit_planning_execution.launch">
+      <arg name="sim" value="$(arg sim)" />
+  </include>
+
+  <include file="$(find iitktcs_utils)/launch/params.launch"/>
+
+  <node name="motion_planner_node" pkg="iitktcs_motion_planner" type="motion_planner_node"/>
+
+  <node name="robot_joint_states_node" pkg="iitktcs_motion_planner" type="robot_joint_states_node"/>
+
+  <node name="calibration_transform_setup" pkg="iitktcs_calibration" type="calibration_transform_setup"/>
+
+  <node name="serial_input" pkg="iitktcs_utils" type="serial_input.py"/>
+</launch>

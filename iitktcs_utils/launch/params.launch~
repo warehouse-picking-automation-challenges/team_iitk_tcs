@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+        <rosparam command="load" file="$(find iitktcs_utils)/params/bin_info.yaml" />
+        <rosparam command="load" file="$(find iitktcs_utils)/params/motion_planner.yaml" />
+
+</launch>

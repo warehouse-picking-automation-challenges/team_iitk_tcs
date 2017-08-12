@@ -1,0 +1,8 @@
+<launch>
+        <rosparam command="load" file="$(find iitktcs_ur10_ensenso_g2_suction_moveit_config)/config/sensors_ensenso.yaml" /> 
+	<!--rosparam command="load" file="$(find iitktcs_ur10_ensenso_g2_suction_moveit_config)/config/rgbd.yaml" /--> 
+
+	<param name="octomap_frame" type="string" value="world" /> 
+	<param name="octomap_resolution" type="double" value="0.01" /> 
+	<param name="max_range" type="double" value="5.0" /> 
+</launch>

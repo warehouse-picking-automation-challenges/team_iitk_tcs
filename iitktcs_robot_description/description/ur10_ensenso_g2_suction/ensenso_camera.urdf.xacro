@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<!-- xacro for ensenso camera, created using cuboidal box -->
+
+<robot name="sensor3d" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <material name="blue">
+     <color rgba="0 0 0.8 1"/>
+  </material>
+  <material name="grey">
+     <color rgba="0.25 0.25 0.25 1"/>
+  </material>
+
+  <xacro:macro name="sensor3d" params="prefix parent"><!-- prefix can be used in case of multiple sensors -->
+
+    <joint name="ensenso_joint" type="fixed">
+      <origin xyz="0 0 0.038" rpy="${M_PI*180/180} 0 0"/>
+      <parent link="${parent}"/>
+      <child link="${prefix}ensenso_link"/>
+    </joint>  
+    <link name="${prefix}ensenso_link">
+      <visual>
+       <origin xyz="0.026 0.0 0" rpy="0 0 0"/>
+       <!-- Always check placing of the collision box by seeing it in the visual, uncomment below place box in visual and then keep same dimensions in the collision parameter-->	
+       <geometry>
+  	 <box size="0.052 0.175 0.05"/>
+       </geometry>
+       <material name="blue"/>
+      </visual>
+      <collision>
+        <origin xyz="0.026 0.0 0" rpy="0 0 0"/>
+  	<geometry>
+  	  <box size="0.052 0.175 0.05"/>
+  	</geometry>
+      </collision>
+      <inertial>
+        <mass value="0.5" />
+        <origin xyz="0 0 0" />
+        <inertia ixx="0.003881243" ixy="0.0" ixz="0.0"
+                 iyy="0.000498940" iyz="0.0"
+                 izz="0.003879257" />
+      </inertial>
+    </link>
+
+    <joint name="foscam_joint" type="fixed">
+      <origin xyz="0 0 0.0905" rpy="${M_PI*180/180} 0 0"/>
+      <parent link="${parent}"/>
+      <child link="${prefix}foscam_link"/>
+    </joint>  
+    <link name="${prefix}foscam_link">
+      <visual>
+       <origin xyz="0.026 0.0 0" rpy="0 0 0"/>
+       <geometry>
+  	 <box size="0.052 0.052 0.055"/>
+       </geometry>
+       <material name="grey"/>
+      </visual>
+      <collision>
+        <origin xyz="0.026 0.0 0" rpy="0 0 0"/>
+  	<geometry>
+  	  <box size="0.052 0.052 0.055"/>
+  	</geometry>
+      </collision>
+      <inertial>
+        <mass value="0.1" />
+        <origin xyz="0 0 0" />
+        <inertia ixx="0.003881243" ixy="0.0" ixz="0.0"
+                 iyy="0.000498940" iyz="0.0"
+                 izz="0.003879257" />
+      </inertial>
+    </link>
+
+    <!-- The fixed joints & links below are usually published by static_transformers launched by the OpenNi launch 
+         files. However, for Gazebo simulation we need them, so we add them here.
+         (Hence, don't publish them additionally!) -->
+
+	<!--joint name="camera_link_joint" type="fixed">
+    	  <parent link="${prefix}kinect_link"/>
+	  <child link="${prefix}camera_link"/>
+    	  <origin rpy="-1.570796325 0.0 0.0" xyz="0.0605 0.015 -0.0325" />
+	</joint>
+	<link name="${prefix}camera_link"/>
+	
+	<joint name="camera_rgb_joint" type="fixed">
+	  <origin xyz="0 -0.045 0" rpy="0 0 0" />
+          <parent link="${prefix}camera_link"/>
+      	  <child link="${prefix}camera_rgb_frame" />
+    	</joint>
+    	<link name="${prefix}camera_rgb_frame"/>
+
+    	<joint name="camera_rgb_optical_joint" type="fixed">
+      	  <origin xyz="0 0 0" rpy="${-M_PI/2} 0 ${-M_PI/2}" />
+      	  <parent link="${prefix}camera_rgb_frame" />
+      	  <child link="${prefix}camera_rgb_optical_frame" />
+    	</joint>
+    	<link name="${prefix}camera_rgb_optical_frame"/>
+
+	<joint name="camera_depth_joint" type="fixed">
+	  <origin xyz="0 -0.02 0" rpy="0 0 0" />
+	  <parent link="${prefix}camera_link" />
+	  <child link="${prefix}camera_depth_frame" />
+	</joint>
+	<link name="${prefix}camera_depth_frame"/>
+
+	<joint name="camera_depth_optical_joint" type="fixed">
+	  <origin xyz="0 0 0" rpy="${-M_PI/2} 0 ${-M_PI/2}" />
+	  <parent link="${prefix}camera_depth_frame" />
+	  <child link="${prefix}camera_depth_optical_frame" />
+	</joint>
+	<link name="${prefix}camera_depth_optical_frame"/-->
+	
+  </xacro:macro>
+</robot>

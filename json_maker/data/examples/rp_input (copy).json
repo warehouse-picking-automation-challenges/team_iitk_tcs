@@ -1,0 +1,122 @@
+{
+    "bin_contents": {
+        "bin_A": [
+            "dove_soap",
+	    "patanjali_toothpaste"
+        ],
+        "bin_B": [
+            "socks",
+ 	    "red_green_ball",
+	    "garnet_bulb"
+        ],
+        "bin_C": [
+            "green_battery",
+	    "nivea_deo",
+            "black_ball"
+        ],
+        "bin_D": [
+	    "realsense_box",
+            "fevicol"
+        ],
+        "bin_E": [
+            "fevicol",
+	    "devi_coffee"
+        ],
+        "bin_F": [
+	    "care_mate_swipes",
+	    "feeding_bottle"
+        ],
+        "bin_G": [
+            "garnet_bulb",
+            "folgers_classic_roast_coffee"
+        ],
+        "bin_H": [
+            "staples_scissor_black",
+	    "fiskars_scissors_red",
+            "fitness_gear_3lb_dumbbell",
+            "oral_b_toothbrush_green",
+            "cool_shot_glue_sticks",
+            "staples_index_cards",
+            "dove_beauty_bar",
+            "staples_index_cards",
+            "crayola_24_ct",
+	    "i_am_a_bunny_book"
+        ],
+        "bin_I": [
+            "cave_mate_handtowel",
+            "creativity_chenille_stems",
+            "safety_first_outlet_plugs",
+            "woods_extension_cord",
+            "soft_white_lightbulb",
+	    "kyjen_squeakin_eggs_plush_puppies"
+        ],
+        "bin_J": [
+            "floor_brush_yellow",
+            "peva_shower_curtain_liner",
+	    "command_hooks"
+        ],
+        "bin_K": [
+            "fevikwik",
+            "hanes_tube_socks",
+            "clorox_utility_brush",
+	    "staples_index_cards",
+	    "scotch_duct_tape"
+        ],
+        "bin_L": [
+            "oralb_pink_toothbrush",
+            "dr_browns_bottle_brush",
+	    "elmers_washable_no_run_school_glue"
+        ]
+    },
+    "tote_contents": [],
+    "work_order": [
+        {
+            "bin": "bin_A",
+            "item": "cotton_socks"
+        },
+        {
+            "bin": "bin_B",
+            "item": "fevicol"
+        },
+        {
+            "bin": "bin_C",
+            "item": "devi_coffee" 
+        },
+        {
+            "bin": "bin_D",
+            "item": "jump_rope"
+        },
+        {
+            "bin": "bin_E",
+            "item": "barbie_book"
+        },
+        {
+            "bin": "bin_F",
+            "item": "camlin_color_pencils"
+        },
+        {
+            "bin": "bin_G",
+            "item": "garnet_bulb"
+        },
+        {
+            "bin": "bin_H",
+            "item": "staples_scissor_black"
+        },
+        {
+            "bin": "bin_I",
+            "item": "cave_mate_handtowel"
+        },
+        {
+            "bin": "bin_J",
+            "item": "floor_brush_yellow"
+        },
+        {
+            "bin": "bin_K",
+            "item": "fevikwik"
+        },
+        {
+            "bin": "bin_L",
+            "item": "oralb_pink_toothbrush"
+        }
+    ]
+}

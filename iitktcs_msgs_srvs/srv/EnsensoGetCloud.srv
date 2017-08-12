@@ -1,0 +1,5 @@
+std_msgs/String key
+---
+sensor_msgs/Image fos_img
+sensor_msgs/PointCloud2 col_cloud
+sensor_msgs/PointCloud2 search_cloud

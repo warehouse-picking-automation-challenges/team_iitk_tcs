@@ -1,0 +1,3 @@
+std_msgs/Bool is_organized
+---
+sensor_msgs/PointCloud2 ensenso_cloud

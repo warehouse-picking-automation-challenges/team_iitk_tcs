@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <include file="$(find iitktcs_ur10_ensenso_vgs_moveit_config)/launch/ur10_moveit_planning_execution.launch"/>
+
+  <!--node name="motion_planner_node" pkg="iitktcs_motion_planner" type="motion_planner_node"/-->
+
+  <node name="ur_communication" pkg="iitktcs_motion_planner" type="ur_communication"/>
+
+  <node name="motion_planner_nod" pkg="iitktcs_motion_planner" type="motion_planner_nod"/>
+</launch>

@@ -1,0 +1,4 @@
+std_msgs/String topic_name
+std_msgs/Int16 data_to_publish
+---
+std_msgs/Bool success

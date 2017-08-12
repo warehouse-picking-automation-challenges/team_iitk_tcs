@@ -1,0 +1,46 @@
+{
+    "bins": [
+        {
+            "bin_id": "A",
+            "contents": [
+"Hanes_Socks",
+"Laugh_Out_Loud_Jokes",
+"Pie_Plates",
+"Tissue_Box",
+"Burts_Bees_Baby_Wipes",
+"Table_Cloth",
+"Balloons",
+"Fiskars_Scissors",
+"Measuring_Spoons"
+            ]
+        },
+        {
+            "bin_id": "B",
+            "contents": [
+"Toilet_Brush",
+"Avery_Binder"
+            ]
+        }
+    ],
+    "boxes": [
+        {
+            "size_id": "A1",
+            "contents": [
+            ]
+        },
+        {
+            "size_id": "1A5",
+            "contents": [
+            ]
+        },
+        {
+            "size_id": "1B2",
+            "contents": [
+            ]
+        }
+    ],
+    "tote": {
+        "contents": [
+        ]
+    }
+}

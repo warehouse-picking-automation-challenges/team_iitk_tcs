@@ -1,0 +1,45 @@
+cmake_minimum_required(VERSION 2.8.3)
+project(iitktcs_motion_planner)
+
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+find_package(catkin REQUIRED COMPONENTS
+  eigen_conversions
+  geometry_msgs
+  moveit_core
+  moveit_ros_planning_interface
+  roscpp
+  std_msgs
+  visualization_msgs
+  tf
+  tf_conversions
+)
+
+find_package(Boost REQUIRED COMPONENTS system)
+
+catkin_package(
+  DEPENDS system_lib
+    roscpp
+    std_msgs
+    geometry_msgs
+    visualization_msgs
+)
+
+include_directories(include)
+include_directories(
+  ${catkin_INCLUDE_DIRS}
+  ${ik_test_service_INCLUDE_DIRS}
+)
+
+add_executable(motion_planner_node src/motion_planner.cpp src/robotarm.cpp)
+add_executable(ur_communication src/ur_communication.cpp)
+add_executable(robot_joint_states_node src/robot_joint_states.cpp)
+
+target_link_libraries(motion_planner_node
+   ${catkin_LIBRARIES}
+)
+target_link_libraries(ur_communication
+   ${catkin_LIBRARIES}
+)
+target_link_libraries(robot_joint_states_node
+   ${catkin_LIBRARIES}
+)

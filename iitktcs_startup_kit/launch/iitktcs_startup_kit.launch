@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<launch>
+
+<rosparam file="$(find iitktcs_startup_kit)/parameters/objects_list.yaml" command="load"/>
+
+</launch>

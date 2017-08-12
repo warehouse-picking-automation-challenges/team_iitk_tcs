@@ -1,0 +1,7 @@
+sensor_msgs/PointCloud2 obj_cloud
+std_msgs/Bool obj_provided
+sensor_msgs/PointCloud2 bin_cloud
+std_msgs/Bool bin_provided
+---
+HandleMsg[] grasp_handles
+std_msgs/Bool valid_handle_found

@@ -1,0 +1,17 @@
+poland_spring_water:
+ normal_data: [0,1,1]
+
+ geometry_type: 1
+
+ object_type: 0
+
+ primitive_type: 1
+
+ overlap: 0.95
+
+ dimensions: [0.2,0.058,1] 
+
+ offset: 0.01
+
+ weight: 1
+

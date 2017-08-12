@@ -1,0 +1,5 @@
+grasp_pose[] grasp_poses
+std_msgs/Int16 object_id
+geometry_msgs/Pose object_pose
+---
+std_msgs/Bool success

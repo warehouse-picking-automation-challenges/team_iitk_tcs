@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<launch>
+
+<rosparam file="$(find iitktcs_startup_kit)/parameters/objects_list.yaml" command="load"/>
+<node name="publisher_node" pkg="iitktcs_controller" type="publisher_node"/>
+
+<!--node name="json_maker_node" pkg="json_maker" type="json_reader_writer"/-->
+
+</launch>

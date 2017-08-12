@@ -1,0 +1,4 @@
+std_msgs/Bool get_cloud
+---
+sensor_msgs/PointCloud2 sensor_cloud
+sensor_msgs/Image

@@ -1,0 +1,11 @@
+geometry_msgs/Pose pose
+geometry_msgs/Point axis
+geometry_msgs/Point normal
+geometry_msgs/Point centroid
+std_msgs/Int16 object_id
+std_msgs/Int16 bin_id
+---
+geometry_msgs/Point re_axis
+geometry_msgs/Point re_normal
+geometry_msgs/Point re_centroid
+geometry_msgs/Pose re_pose

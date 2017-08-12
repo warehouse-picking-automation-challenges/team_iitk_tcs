@@ -1,0 +1,74 @@
+{
+	"bins" : 
+	[
+		{
+			"bin_id" : "A",
+			"contents" : 
+			[
+				"light_bulb",
+				"kneeling_pad",
+				"glasses_case",
+				"polka_dot_balloons",
+				"ratchet",
+				"basket_bags",
+				"caulk_tube",
+				"led_spot_light",
+				"toilet_paper_holders",
+				"r2d2_holo_notebook"
+			]
+		},
+		{
+			"bin_id" : "B",
+			"contents" : 
+			[
+				"tennis_ball_container",
+				"robots_everywhere",
+				"plastic_wine_glass",
+				"scotch_sponges",
+				"white_facecloth",
+				"measuring_spoons",
+				"mesh_cup",
+				"laugh_out_loud_jokes",
+				"crayons",
+				"marbles",
+				"mouse_traps",
+				"expo_eraser",
+				"princess_popsicle_maker"
+			]
+		}
+	],
+	"boxes" : 
+	[
+		{
+			"contents" : 
+			[
+				"pink_facial_pads"
+			],
+			"size_id" : "A1"
+		},
+		{
+			"contents" : 
+			[
+				"leaf_bags",
+				"band_aid_tape",
+				"pink_fashion_socks"
+			],
+			"size_id" : "1AD"
+		},
+		{
+			"contents" : 
+			[
+				"variety_word_find",
+				"wood_glue",
+				"epsom_salts",
+				"duct_tape",
+				"fiskars_scissors"
+			],
+			"size_id" : "1A5"
+		}
+	],
+	"tote" : 
+	{
+		"contents" : []
+	}
+}

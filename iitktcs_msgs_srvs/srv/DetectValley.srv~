@@ -1,0 +1,7 @@
+sensor_msgs/PointCloud2 pt_cloud
+std_msgs/Bool cloud_provided
+std_msgs/Bool roi_provided
+std_msgs/Int16MultiArray roi
+---
+geometry_msgs/Point centroid
+std_msgs/Bool valid_box_found

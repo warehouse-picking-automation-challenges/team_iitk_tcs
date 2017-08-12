@@ -1,0 +1,17 @@
+mouse_traps:
+ normal_data: [0,0,1]
+
+ geometry_type: 0
+
+ object_type: 0
+
+ primitive_type: 0
+
+ overlap: 0.95
+
+ dimensions: [0.15,0.088,0.015] 
+
+ offset: 0
+
+ weight: 0
+

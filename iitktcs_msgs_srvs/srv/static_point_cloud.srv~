@@ -1,0 +1,5 @@
+sensor_msgs/PointCloud2 bin_cloud
+sensor_msgs/PointCloud2 object_cloud
+std_msgs/Bool flag
+---
+std_msgs/Bool success

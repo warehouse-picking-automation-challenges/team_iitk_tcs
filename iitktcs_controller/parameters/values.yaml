@@ -1,0 +1,4 @@
+/camera/left/name: leftcamera
+/camera/left/exposure: 1
+/camera/right/name: rightcamera
+/camera/right/exposure: 1.1

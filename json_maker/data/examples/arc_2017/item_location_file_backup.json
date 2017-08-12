@@ -1,0 +1,67 @@
+{
+    "bins": [
+        {
+            "bin_id": "A",
+            "contents": [
+		"Hinged_Ruled_Index_Cards",
+		"Balloons",
+		"Tissue_Box",
+		"Mesh_Cup",
+		"Ice_Cube_Tray",
+		"Hanes_Socks",
+		"Composition_Book",
+		"Laugh_Out_Loud_Jokes",
+		"Glue_Sticks",
+		"Pie_Plates",
+		"Burts_Bees_Baby_Wipes",
+		"Robots_DVD",
+		"Band_Aid_Tape",
+		"Plastic_Wine_Glass",
+		"Measuring_Spoons",
+		"Tennis_Ball_Container"
+            ]
+        },
+        {
+            "bin_id": "B",
+            "contents": [
+		"Bunny_Book",
+		"New_Brush",
+		"Glucose_Bottle",
+		"Vim_Liquid",
+		"Yellow_Cloth",
+		"New_Socks",
+		"New_Colin",
+		"Brush_Three",
+		"New_Crayons",
+		"Fabric_Pencil",
+		"Markers",
+		"Vim_Bar",
+		"Garnet_Bulb",
+		"New_Dvd",
+		"Blue_Scissor",
+		"Command"
+            ]
+        }
+    ],
+    "boxes": [
+        {
+            "size_id": "A1",
+            "contents": [
+            ]
+        },
+        {
+            "size_id": "1A5",
+            "contents": [
+            ]
+        },
+        {
+            "size_id": "1B2",
+            "contents": [
+            ]
+        }
+    ],
+    "tote": {
+        "contents": [
+        ]
+    }
+}

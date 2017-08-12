@@ -1,0 +1,17 @@
+robots_dvd:
+ normal_data: [0,0,1]
+
+ geometry_type: 0
+
+ object_type: 0
+
+ primitive_type: 0
+
+ overlap: 0.95
+
+ dimensions: [0.189,0.133,0.016] 
+
+ offset: 0
+
+ weight: 0
+

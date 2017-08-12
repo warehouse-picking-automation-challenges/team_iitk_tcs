@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<launch>
+	<!--rosparam command="load" file="$(find ensenso_testing)/data_new/test.yaml" /-->
+        <!--rosparam command="load" file="$(find iitktcs_pose_estimation)/data_new/bin_corners.yaml"  /-->
+         <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/bin_corners.yaml"  />
+        <!--rosparam command="load" file="$(find ensenso_testing)/data_new/model_normal.yaml"  /-->
+
+        <!--rosparam command="load" file="$(find iitktcs_pose_estimation)/param/object_names.yaml"/-->
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/avery_binder.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/balloons.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/band_aid_tape.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/scotch_sponges.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/black_fashion_gloves.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/burts_bees_baby_wipes.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/colgate_toothbrush_4pk.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/composition_book.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/crayons.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/duct_tape.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/epsom_salts.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/expo_eraser.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/fiskars_scissors.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/params/flashlight.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/glue_sticks.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/hand_weight.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/hanes_socks.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/hinged_ruled_index_cards.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/ice_cube_tray.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/irish_spring_soap.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/laugh_out_loud_jokes.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/marbles.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/measuring_spoons.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/mouse_traps.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/pie_plates.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/poland_spring_water.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/reynolds_wrap.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/robots_dvd.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/robots_everywhere.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/bath_sponge.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/speed_stick.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/white_facecloth.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/table_cloth.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/tennis_ball_container.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/ticonderoga_pencils.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/tissue_box.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/windex.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/plastic_wine_glass.yaml" />
+        <rosparam command="load" file="$(find iitktcs_pose_estimation)/param/toilet_brush.yaml" />
+
+
+</launch>
+
+
+

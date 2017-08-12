@@ -1,0 +1,5 @@
+std_msgs/Int16 bin_id
+std_msgs/Bool change_bin
+---
+std_msgs/Bool success
+std_msgs/Bool object_present

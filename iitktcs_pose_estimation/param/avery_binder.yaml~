@@ -1,0 +1,17 @@
+avery_binder:
+ normal_data: [0,0,1]
+
+ geometry_type: 0
+
+ object_type: 0
+
+ primitive_type: 0
+
+ overlap: 0.95
+
+ dimensions: [0.294,0.266,0.022] 
+
+ offset: 0
+
+ weight: 1
+

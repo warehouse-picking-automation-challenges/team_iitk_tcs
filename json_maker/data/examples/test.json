@@ -1,0 +1,9 @@
+{
+ "stocks": [
+ 			 {"symbol": "AAPL", "amount": 1.03213, "last_price": 1.20},
+ 			 {"symbol": "MSFT", "amount": 2.31039}, 
+ 			 {"symbol": "F", "amount": 0.543589} 
+ 		   ]
+}
+
+

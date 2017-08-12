@@ -1,0 +1,77 @@
+{
+    "bin_contents": {
+        "bin_A": [
+            "kleenex_tissue_box",
+            "safety_first_outlet_plugs"
+        ],
+        "bin_B": [
+            "kleenex_paper_towels"
+        ],
+        "bin_C": [
+            "scotch_bubble_mailer",
+            "up_glucose_bottle"
+        ],
+        "bin_D": [
+            "rolodex_jumbo_pencil_cup"
+        ],
+        "bin_E": [
+            "hanes_tube_socks"
+        ],
+        "bin_F": [
+            "easter_turtle_sippy_cup",
+            "barkely_hide_bones"
+        ],
+        "bin_G": [
+            "cherokee_easy_tee_shirt",
+            "creativity_chenille_stems",
+            "fiskars_scissors_red",
+            "oral_b_toothbrush_green",
+            "oral_b_toothbrush_red"
+        ],
+        "bin_H": [
+            "scotch_duct_tape",
+            "kyjen_squeakin_eggs_plush_puppies",
+            "laugh_out_loud_joke_book",
+            "dasani_water_bottle",
+            "staples_index_cards",
+            "cloud_b_plush_bear",
+            "expo_dry_erase_board_eraser"
+        ],
+        "bin_I": [
+            "fitness_gear_3lb_dumbbell",
+            "scotch_duct_tape"
+        ],
+        "bin_J": [
+            "staples_index_cards",
+            "soft_white_lightbulb",
+            "expo_dry_erase_board_eraser"
+        ],
+        "bin_K": [
+            "elmers_washable_no_run_school_glue",
+            "ticonderoga_12_pencils",
+            "dasani_water_bottle",
+            "woods_extension_cord",
+            "creativity_chenille_stems"
+        ],
+        "bin_L": [
+            "jane_eyre_dvd",
+            "peva_shower_curtain_liner",
+            "platinum_pets_dog_bowl"
+        ]
+    },
+    "tote_contents": [
+        "crayola_24_ct",
+        "dr_browns_bottle_brush",
+        "womens_knit_gloves",
+        "dove_beauty_bar",
+        "cool_shot_glue_sticks",
+        "folgers_classic_roast_coffee",
+        "command_hooks",
+        "clorox_utility_brush",
+        "rawlings_baseball",
+        "scotch_bubble_mailer",
+        "i_am_a_bunny_book",
+        "elmers_washable_no_run_school_glue"
+    ]
+}
+

@@ -1,0 +1,6 @@
+std_msgs/Float32MultiArray ids_available
+std_msgs/String task
+std_msgs/Float32MultiArray ids_target
+std_msgs/Int32 bin_id
+---
+objects_info[] object_info

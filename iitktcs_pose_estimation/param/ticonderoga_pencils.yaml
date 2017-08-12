@@ -1,0 +1,17 @@
+ticonderoga_pencils:
+ normal_data: [0,0,1]
+
+ geometry_type: 0
+
+ object_type: 0
+
+ primitive_type: 0
+
+ overlap: 0.95
+
+ dimensions: [0.193,0.092,0.009] 
+
+ offset: 0
+
+ weight: 0
+

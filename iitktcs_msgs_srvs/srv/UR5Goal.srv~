@@ -1,0 +1,4 @@
+std_msgs/Float64MultiArray goal
+std_msgs/Bool flag_remove_object
+---
+std_msgs/Bool success

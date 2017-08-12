@@ -1,0 +1,5 @@
+std_msgs/Bool is_organized
+---
+sensor_msgs/Image foscam_image
+sensor_msgs/PointCloud2 ensenso_cloud
+sensor_msgs/PointCloud2 projection_cloud

@@ -1,0 +1,17 @@
+irish_spring_soap:
+ normal_data: [1,1,1]
+
+ geometry_type: 0
+
+ object_type: 0
+
+ primitive_type: 0
+
+ overlap: 0.95
+
+ dimensions: [0.098,0.063,0.036] 
+
+ offset: 0
+
+ weight: 0
+

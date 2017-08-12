@@ -1,0 +1,5 @@
+std_msgs/Float64MultiArray joint_angles
+std_msgs/Bool current_jts
+---
+geometry_msgs/Pose pose
+

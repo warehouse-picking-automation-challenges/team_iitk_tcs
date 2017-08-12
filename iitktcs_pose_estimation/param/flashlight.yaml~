@@ -1,0 +1,17 @@
+flashlight:
+ normal_data: [0,0,0]
+
+ geometry_type: 1
+
+ object_type: 0
+
+ primitive_type: 1
+
+ overlap: 0.95
+
+ dimensions: [0.085,0.028,1] 
+
+ offset: 0
+
+ weight: 0
+

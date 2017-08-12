@@ -1,0 +1,4 @@
+std_msgs/Bool check
+---
+std_msgs/Bool flag_protective_stopped
+std_msgs/Bool success

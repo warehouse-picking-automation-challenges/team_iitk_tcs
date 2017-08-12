@@ -1,0 +1,17 @@
+reynolds_wrap:
+ normal_data: [0,1,1]
+
+ geometry_type: 0
+
+ object_type: 0
+
+ primitive_type: 0
+
+ overlap: 0.95
+
+ dimensions: [0.312,0.043,0.043] 
+
+ offset: 0
+
+ weight: 0
+

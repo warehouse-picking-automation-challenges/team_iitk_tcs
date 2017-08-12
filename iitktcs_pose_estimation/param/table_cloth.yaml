@@ -1,0 +1,17 @@
+table_cloth:
+ normal_data: [0,0,0]
+
+ geometry_type: 0
+
+ object_type: 1
+
+ primitive_type: 0
+
+ overlap: 1
+
+ dimensions: [0,0,0] 
+
+ offset: 0
+
+ weight: 0
+
