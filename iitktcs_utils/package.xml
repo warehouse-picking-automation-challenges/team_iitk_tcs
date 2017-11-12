@@ -4,8 +4,8 @@
   <version>0.0.0</version>
   <description>The iitktcs_utils package</description>
 
-  <author email="sharathrjtr@gmail.com">Sharath Jotawar</author>
-  <maintainer email="sharathrjtr@gmail.com">Sharath Jotawar</maintainer>
+  <author email="prasun.pallav@tcs.com">Prasun Pallav</author>
+  <maintainer email="prasun.pallav@tcs.com">Prasun Pallav</maintainer>
 
   <license>TODO</license>
   <buildtool_depend>catkin</buildtool_depend>
